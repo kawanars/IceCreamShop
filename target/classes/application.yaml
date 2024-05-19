@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: ice_cream_shop
+    password: ice_cream_shop
+    url: jdbc:mysql://localhost:3306/ice_cream_shop
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
